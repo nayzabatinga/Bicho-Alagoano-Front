@@ -1,0 +1,60 @@
+.register-pets {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.register-pets form {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .5);
+    padding: 1em;
+    border-radius: .5em;
+}
+.register-pets form input{
+    margin-top: .5rem;
+    border: 1px solid #7a7a7a;
+    border-radius: 4px;
+    padding: 0 20px;
+    height: 2em;
+    font-size: 1em;
+    color: #666;
+    width: 100%;
+}
+.register-pets form input[type="file"]{
+    display: none;
+}
+.register-pets form label{
+    margin-top: .5rem;
+    border: 1px solid darkgreen;
+    border-radius: 4px;
+    padding: .4em 20px;
+    height: 2em;
+    font-size: 1em;
+    color: darkgreen;
+    width: 100%;
+    font-weight: bold;
+}
+.register-pets form input::placeholder{
+    color: #999;
+}
+.register-pets form button{
+    margin-top: .5rem;
+    border: 0;
+    border-radius: 4px;
+    height: 2em;
+    font-size: 1em;
+    background: darkgreen;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+}
+.register-pets form a {
+    text-decoration: none;
+    margin-top: .5em;
+    color: darkslateblue;
+}

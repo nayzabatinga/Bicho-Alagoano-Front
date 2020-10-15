@@ -1,0 +1,33 @@
+.list-pets{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: .5em 0;
+}
+.list-pets ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1em;
+    list-style: none;
+}
+.list-pets ul li img{
+    max-width: 100%;
+}
+.list-pets ul li footer{
+    padding: .5em 0;
+}
+.list-pets ul li button{
+    margin-top: 1em;
+    color: #C2251F;
+    font-weight: bold;
+    width: 100%;
+    border: 1px #C2251F solid;
+    border-radius: 4px;
+    padding: .5em 0;
+    background: transparent;
+
+}
+.list-pets ul li button:hover{
+    background: #C2251F;
+    color: white;
+}
