@@ -1,5 +1,8 @@
 # Bicho-Alagoano-Front
 
+### Tecnologia utilizada
+-- React com TypeScript
+
 ## Front-end
 Todo o conteúdo relacionado ao front-end está disponível na branch master
 
